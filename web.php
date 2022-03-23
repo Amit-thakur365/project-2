@@ -66,11 +66,8 @@ Route::post('add-update-book', [AjaxBOOKCRUDController::class, 'store']);
 Route::post('edit-book', [AjaxBOOKCRUDController::class, 'edit']);
 Route::post('delete-book', [AjaxBOOKCRUDController::class, 'destroy']);
 
-// Product Crud Route
-Route::get('ajax-product-crud', [AjaxBOOKCRUDController::class, 'index']);
-Route::post('add-update-product', [AjaxBOOKCRUDController::class, 'store']);
-Route::post('edit-product', [AjaxBOOKCRUDController::class, 'edit']);
-Route::post('delete-product', [AjaxBOOKCRUDController::class, 'destroy']);
+
+// dsf
 
 
 
